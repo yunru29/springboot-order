@@ -15,7 +15,6 @@ public class OrderController {
 	
 	@PostMapping(value = "/")
 	public Object handleOrder(@RequestBody String id) {
-		System.out.println("123");
 		return null;
 	}
 	
